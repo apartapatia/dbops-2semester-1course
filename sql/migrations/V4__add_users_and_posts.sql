@@ -8,5 +8,5 @@ WITH company_users AS (
 INSERT INTO posts (owner_id, text)
 SELECT 
     id,
-    "Тестовый пост"
+    'Тестовый пост'
 FROM company_users;
